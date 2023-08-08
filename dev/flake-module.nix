@@ -17,6 +17,7 @@ in
     inputs.devenv.flakeModule or (throw error)
 
     ./nix.nix
+    ./rust.nix
   ];
   perSystem = _: {
     # https://devenv.sh/reference/options for more info
