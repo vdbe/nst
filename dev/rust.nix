@@ -5,6 +5,7 @@ _:
       packages = with pkgs; [
         bacon
         cargo-watch
+        taplo
       ];
 
       languages.rust = {
