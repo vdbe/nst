@@ -1,0 +1,5 @@
+#== nix-shell-template ==#
+/.devenv/
+/.direnv/
+/.pre-commit-config.yaml
+#~~ nix-shell-template ~~#
